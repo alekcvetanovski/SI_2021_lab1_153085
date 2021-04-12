@@ -35,3 +35,19 @@ $ git add words.txt
 $ git commit -m "Add 5 words"
 $ git push origin branch1 (za da go dodademe novviot branch na dalecniot repo)
 15. Vnesuvanje na logovi.
+16. Bidejki ne umeam da chitam kako shto treba, prethodno imam pushnato predvremeno, kako i sega.
+Koristime komanda za izmena na ne-pushnata datoteka.
+$ git commit --amend
+17. Vnesuvanje logovi.
+18. Sinhronizirame so
+$ git push origin master
+19. Se prefrluvame na branch2
+$ git checkout branch2
+20. Koristime komanda nano za da napravime izmeni kako i commit.
+21. Sinhronizacija.
+22. Koristime komandi checkout i merge
+$ git checkout master
+$ git merge branch1
+23. Pravime izmeni vo numbers so komandite nano i potoa pravime commit -a.
+24. $ git merge branch2
+25. Pravime konechen $ git push origin master
