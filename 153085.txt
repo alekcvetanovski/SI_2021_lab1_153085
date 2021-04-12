@@ -1,0 +1,26 @@
+1. Instaliranje
+Povrzuvame GitHub so GitBash preku komandata
+$ git config --global user.email emailadresa
+2. Kreiranje Remote Repository - Dobivame HTTP link od nashiot repository
+3. Sozdavanje na lokalen repository preku gitbash
+$ mkdir SI_2021_lab1_153085
+$ cd SI_2021_lab1_153085
+4. Inicijalizirame git
+$ git init
+Koristime komanda i link za spojuvanje na repository
+$ git remote add origin https://github.com/alekcvetanovski/SI_2021_lab1_153085.git
+5. Koristime komanda echo za sozdavanje na nova txt datoteka i dodavanje na brojki vo istata
+$ echo -e "1\n2\n3\n4\n5" >> numbers.txt
+Potoa ja prikachuvame so komandite add, commit i push
+$ git add numbers.txt
+$ git commit -m "Add numbers from 1-5"
+$ git push origin master 
+Git ni bara avtentikacija na koja shto dozvoluvame, nashata datoteka e uspesno prikachena.
+6. So komandata nano ja editirame datotekata
+$ nano numbers.txt
+Bidejki samo ja izmenuvame datotekata, komandata add nema da e potrebna
+$ git commit -a
+Dodavame poraka "Add numbers from 6-9"
+$ git push origin master
+7. Gi koristime istite komandi kako vo chekor 6
+8. Vnesuvanje na dosegasnite logovi
