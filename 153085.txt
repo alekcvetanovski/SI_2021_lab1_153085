@@ -24,3 +24,25 @@ Dodavame poraka "Add numbers from 6-9"
 $ git push origin master
 7. Gi koristime istite komandi kako vo chekor 6
 8. Vnesuvanje na dosegasnite logovi
+12. Sozdavame 2 branches vo git preku komandata
+$ git branch branch1 i git branch branch2
+13. Se prefrluvame na branch 1
+$ git checkout branch1
+14. Sozdavame nova datoteka so funkcijata echo
+$ echo -e "zbor1\nzbor2\nzbor3\nzbor4\nzbor5" >> words.txt
+Koristime add commit i push
+$ git add words.txt
+$ git commit -m "Add 5 words"
+$ git push origin branch1 (za da go dodademe novviot branch na dalecniot repo)
+15. Vnesuvanje na logovi.
+16. Bidejki ne umeam da chitam kako shto treba, prethodno imam pushnato predvremeno, kako i sega.
+Koristime komanda za izmena na ne-pushnata datoteka.
+$ git commit --amend
+17. Vnesuvanje logovi.
+18. Sinhronizirame so
+$ git push origin master
+19. Se prefrluvame na branch2
+$ git checkout branch2
+20. Koristime komanda nano za da napravime izmeni kako i commit.
+21. Sinhronizacija.
+22.
